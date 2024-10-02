@@ -1,8 +1,7 @@
 ---
 
 - hosts: all
-  become: true
   tasks: 
-  -  name: Ping servers
-     ping: 
-     
+  -  name: ping servers
+     ping:
+
