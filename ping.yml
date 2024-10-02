@@ -1,7 +1,8 @@
 ---
+- name: Echo
+  hosts: localhost
+  gather_facts: no
 
-- hosts: all
-  tasks: 
-  -  name: ping servers
-     ping:
-
+  tasks:
+    - name: Print a message using echo
+      shell: echo "Hello, this is a test from Ansible!"
