@@ -1,6 +1,6 @@
 ---
 - name: Echo
-  hosts: all
+  hosts: my_servers
   gather_facts: no
 
   tasks:
